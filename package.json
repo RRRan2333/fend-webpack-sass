@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server/index.js",
     "build-prod": "webpack --config webpack.prod.js",
-    "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
+    "build-dev": "webpack-dev-server --config webpack.dev.js --open"
   },
   "keywords": [],
   "author": "",
@@ -22,11 +22,25 @@
     "@babel/preset-env": "^7.5.4",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
+<<<<<<< HEAD
     "css-loader": "^3.0.0",
+||||||| b5c5265
+=======
+    "css-loader": "^3.5.3",
+>>>>>>> current
     "html-webpack-plugin": "^3.2.0",
+<<<<<<< HEAD
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack-dev-server": "^3.7.2"
+||||||| b5c5265
+    "webpack-dev-server": "^3.7.2"
+=======
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack-dev-server": "^3.11.0"
+>>>>>>> current
   }
 }

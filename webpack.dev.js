@@ -13,10 +13,18 @@ module.exports = {
                 test: '/\.js$/',
                 exclude: /node_modules/,
                 loader: "babel-loader"
+<<<<<<< HEAD
             },
             {
                 test: /\.scss$/,
                 use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+||||||| b5c5265
+=======
+            },
+            {
+                test: '/\.scss$/',
+                use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+>>>>>>> current
             }
         ]
     },

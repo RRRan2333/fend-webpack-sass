@@ -1,26 +1,5 @@
-$highlight-color: red;
-
-header.hdr {
-    align-self: center;
-
+header {
     display: flex;
-    flex-direction: column-reverse;
     justify-content: space-between;
-    align-content: flex-end;
     padding: 10px 40px;
-    // border: solid blue 1px;
-    background-color: gray;
-
-    #logo {
-        color: $highlight-color;
-        align-self: center;
-    }
-
-    .nav {
-        color: blue;
-    }
-
-    div {
-        border: solid $highlight-color 1px;
-    }
 }
